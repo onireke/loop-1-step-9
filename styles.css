@@ -1,0 +1,181 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5c66b;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  height: 66.8%;
+  display: grid;
+  grid-template-columns: 18rem 30rem;
+  background-color: #f1eff1;
+}
+
+.main-left {
+  background-color: #f1eff1;
+  padding: 2rem 2rem 0 2rem;
+  overflow-y: scroll;
+}
+
+.wallet-plus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.payment-card {
+}
+
+.card {
+  width: 4rem;
+  height: 4rem;
+}
+
+.card-div {
+  border: 1px solid #d9d8da;
+  margin: 1rem 0;
+  border-radius: 5px;
+  color: #696769;
+  padding: 0 0 0.5rem 0.5rem;
+}
+
+.card-div:hover {
+  border: 2px solid #7e87bf;
+  cursor: pointer;
+}
+
+.card-div > p {
+  margin: 0;
+}
+
+.main-right {
+  background-color: white;
+  padding: 2rem;
+  overflow-y: scroll;
+}
+
+.right-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header-span {
+  display: flex;
+}
+
+.header-span span:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.header-span span:nth-child(2) {
+  font-weight: bold;
+
+  align-self: flex-start;
+}
+
+.payment-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.image-description {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.image-span {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid #dad8da;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arithmetic-sign {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-description > p {
+  margin: 0;
+  margin-bottom: 0.3rem;
+  padding: 0;
+}
+.item {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.item-description p:nth-child(2) {
+  font-size: 0.8rem;
+  color: #adacad;
+}
+
+.price {
+  display: flex;
+  font-weight: 800;
+  color: #838db3;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.green-price {
+  color: #84c45c;
+}
+
+span {
+  padding: 0;
+  margin: 0;
+}
+
+.price span:nth-child(1) {
+  align-self: flex-start;
+}
+
+.price span:nth-child(2) {
+  align-self: flex-start;
+  font-size: 0.7rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #e6e5e6;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e6e5e6;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #706e70;
+}
